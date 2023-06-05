@@ -6,7 +6,7 @@ app.set('view engine', 'ejs');
 app.use(bodyparser.urlencoded({extended:true}))
 app.use(express.static("public"));
 
-var items = ["dkfjdkfd","fdfdskfd","dfkjdfdh"];
+var items = ["College","Sleep","Coding"];
 var workitems = [];
 
 app.get("/", (req, res) => {
